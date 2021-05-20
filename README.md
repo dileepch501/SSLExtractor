@@ -22,7 +22,9 @@ allprojects {
 ### step 2 : Add the dependancy in the app level build.gradle file.
 
 ```ruby
-maven { url 'https://jitpack.io' }
+dependencies {
+	        implementation 'com.github.dileepch501:SSLExtractor:1.0.1'
+	}
 
 ```
 
