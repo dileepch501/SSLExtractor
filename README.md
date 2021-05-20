@@ -23,8 +23,9 @@ allprojects {
 
 ```ruby
 dependencies {
-	        implementation 'com.github.dileepch501:SSLExtractor:1.0.1'
-	}
+	  
+	implementation 'com.github.dileepch501:SSLExtractor:1.0.1'
+ }
 
 ```
 
