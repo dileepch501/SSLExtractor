@@ -20,3 +20,13 @@ allprojects {
 
 
 ### step 2 : Add the dependancy in the app level build.gradle file.
+
+```java
+maven { url 'https://jitpack.io' }
+
+```
+
+### step 3 : Extract the sha256 key using CertificateExtractor class.
+
+### 1. From file
+
