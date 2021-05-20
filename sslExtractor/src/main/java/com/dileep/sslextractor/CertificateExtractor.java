@@ -25,7 +25,7 @@ public class CertificateExtractor {
      * @param certificate Crt or der or pem file with a valid certificate
      * @return
      */
-    @RequiresApi(api = Build.VERSION_CODES.O)
+
     public static String extract(File certificate){
 
         FileInputStream inputStream = null;
@@ -55,7 +55,7 @@ public class CertificateExtractor {
 
         return "";
     }
-    @RequiresApi(api = Build.VERSION_CODES.O)
+
     public static String extract(InputStream fileInputStream){
 
         FileInputStream inputStream = null;
@@ -86,7 +86,7 @@ public class CertificateExtractor {
         return "";
     }
 
-    @RequiresApi(api = Build.VERSION_CODES.O)
+
     public static String extract(FileInputStream fileInputStream){
 
         FileInputStream inputStream = null;
