@@ -1,0 +1,61 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.dileep.sslextractor"
+4    android:versionCode="1"
+5    android:versionName="1.0.1" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="26"
+8-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:4:5-67
+11-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.CAMERA" />
+12-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:5:5-65
+12-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:5:22-62
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:6:5-81
+13-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:6:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:7:5-80
+14-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:7:22-77
+15
+16    <application
+16-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:8:5-22:19
+17        android:allowBackup="true"
+17-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:9:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.5.0] /home/dileep/.gradle/caches/transforms-2/files-2.1/ec322e19e59be0ee44ce6650da9ba191/core-1.5.0/AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:extractNativeLibs="false"
+21        android:icon="@mipmap/ic_launcher"
+21-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:10:9-43
+22        android:label="@string/app_name"
+22-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:11:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:12:9-54
+24        android:supportsRtl="true"
+24-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:13:9-35
+25        android:testOnly="true"
+26        android:theme="@style/Theme.SSLExtractor" >
+26-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:14:9-50
+27        <activity android:name="com.dileep.sslextractor.MainActivity" >
+27-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:15:9-21:20
+27-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:15:19-47
+28            <intent-filter>
+28-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:17:17-69
+29-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:17:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:19:17-77
+31-->/home/dileep/AndroidStudioProjects/SSLExtractor/app/src/main/AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34    </application>
+35
+36</manifest>
